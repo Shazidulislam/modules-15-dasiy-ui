@@ -39,7 +39,7 @@
 <body class="poppins-regular">
   <!-- header section  -->
    <header class="container mx-auto">
-     <nav>
+     <nav class="py-3">
       <div class="navbar bg-base-100">
         <div class="flex-1">
           <div class="dropdown">
@@ -81,9 +81,158 @@
         </div>
       </div>
      </nav>
+     <!-- slider/banner section -->
+     <div class="carousel bg-[#faf2f0] lg:h-[500px] rounded-md w-full">
+      <!-- slide-1  -->
+      <div id="slide1" class="carousel-item    relative w-full">
+        <div class="flex flex-col lg:flex-row md:p-24 p-4 items-center  ">
+          <!-- text-content -->
+           <div class="flex-1 space-y-4" >
+            <h1 class="lg:text-6xl text-2xl text-black font-bold ">Ride-on R15 V4 <br> with Smile</h1>
+            <p class="text-base lg:w-full w-4/5 font-light">The Bikerterly program provides support to schools, government entities, and nonprofit.</p>
+            <button class=" text-white btn bg-[#E76F51] hover:text-black ">Purchase Now</button>
+           </div>
+           <!-- img section -->
+            <div class="flex-1 lg:w-[482px]">
+              <img src="./images/slider/bike2.png" alt="">
+            </div>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+       <!-- slide-2  -->
+       <div id="slide2" class="carousel-item    relative w-full">
+        <div class="flex flex-col lg:flex-row md:p-24 p-4 items-center  ">
+          <!-- text-content -->
+           <div class="flex-1 space-y-4" >
+            <h1 class="lg:text-6xl text-2xl text-black font-bold ">Ride-on R15 V4 <br> with Smile</h1>
+            <p class="text-base lg:w-full w-4/5 font-light">The Bike Zoo is proud to be among a select support to schools, government entities, and nonprofit.</p>
+            <button class=" text-white btn bg-[#E76F51] hover:text-black ">Purchase Now</button>
+           </div>
+           <!-- img section -->
+            <div class="flex-1 lg:w-[482px]">
+              <img src="./images/slider/bike1.png" alt="">
+            </div>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+       <!-- slide-3  -->
+       <div id="slide3" class="carousel-item    relative w-full">
+        <div class="flex flex-col lg:flex-row md:p-24 p-4 items-center  ">
+          <!-- text-content -->
+           <div class="flex-1 space-y-4" >
+            <h1 class="lg:text-6xl text-2xl text-black font-bold ">Ride-on R15 V4 <br> with Smile</h1>
+            <p class="text-base lg:w-full w-4/5 font-light">The Bike Zoo is proud to be among a select support to schools, government entities, and nonprofit.</p>
+            <button class=" text-white btn bg-[#E76F51] hover:text-black ">Purchase Now</button>
+           </div>
+           <!-- img section -->
+            <div class="flex-1 lg:w-[482px]">
+              <img src="./images/slider/bike3.png" alt="">
+            </div>
+        </div>
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+        <!-- slide-4  -->
+        <div id="slide4" class="carousel-item    relative w-full">
+          <div class="flex flex-col lg:flex-row md:p-24 p-4 items-center  ">
+            <!-- text-content -->
+             <div class="flex-1 space-y-4" >
+              <h1 class="lg:text-6xl text-2xl text-black font-bold ">Ride-on R15 V4 <br> with Smile</h1>
+              <p class="text-base lg:w-full w-4/5 font-light">The Bike Zoo is proud to be among a selecsupport to schools, government entities, and nonprofit.</p>
+              <button class=" text-white btn bg-[#E76F51] hover:text-black ">Purchase Now</button>
+             </div>
+             <!-- img section -->
+              <div class="flex-1 lg:w-[482px]">
+                <img src="./images/slider/bike4.png" alt="">
+              </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+    </div>
+
    </header>
    <!-- main section -->
-   <main class="container mx-auto"></main>
+   <main class="container mx-auto">
+    <!-- new  fetured  -->
+    <section class="p-24 space-y-24 ">
+     <div class="text-center">
+      <h1 class=" font-bold text-2xl lg:text-5xl  text-black ">Fetured Bikes In This Year</h1>
+      <p class="text-orange-700 py-2 font-semibold">Best bike collection</p>
+     </div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+        <div class="w-full">
+          <img src="/images/others/feature-bike.png" alt="">
+        </div>
+        <div class="w-full">
+          <img src="/images/slider/bike4.png" alt="">
+        </div>
+        <div class="w-full">
+          <img src="/images/slider/bike2.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- card section -->
+     <section>
+      <h1 class="text-3xl lg:text-5xl font-bold text-center pb-16 capitalize">latest News</h1>
+      <!-- card content  -->
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"> 
+        <!-- card-1 -->
+        <div class="card card-compact bg-base-100  shadow-xl">
+          <figure class="m-4">
+            <img class="w-full" src="/images/others/latest2.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title font-bold text-2xl">Motorcycles & Scooters</h2>
+            <p class="text-justify  font-semibold text-gray-500"> 
+              The Austin Bike Zoo was born as a collaboration of collective imagination between bike-builders, puppet-makers.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-bike-primary text-white hover:text-black">Buy Now</button>
+            </div>
+          </div>
+        </div>
+           <!-- card-2 -->
+           <div class="card card-compact bg-base-100  shadow-xl">
+            <figure class="m-4">
+              <img  src="/images/others/latest1.png" class="w-full" alt="">
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-bold text-2xl">Motorcycles & Scooters</h2>
+              <p class="text-justify font-semibold text-gray-500"> 
+                The Austin Bike Zoo was born as a collaboration of collective imagination between bike-builders, puppet-makers.</p>
+              <div class="card-actions justify-start">
+                <button class="btn bg-bike-primary text-white hover:text-black">Buy Now</button>
+              </div>
+            </div>
+          </div>
+           
+             <!-- card-3 -->
+        <div class="card card-compact bg-base-100  shadow-xl">
+          <figure class="m-4">
+            <img class="w-full" src="/images/others/latest3.png" alt="">
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title font-bold text-2xl">Motorcycles & Scooters</h2>
+            <p class="text-justify font-semibold text-gray-500"> 
+              The Austin Bike Zoo was born as a collaboration of collective imagination between bike-builders, puppet-makers.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-bike-primary text-white hover:text-black">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+   </main>
    <!-- footer section  -->
    <footer></footer>
 </body>
